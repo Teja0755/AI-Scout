@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 httpx
@@ -5,3 +6,11 @@ groq
 python-dotenv
 langgraph
 anthropic
+=======
+fastapi
+uvicorn
+httpx
+groq
+python-dotenv
+langgraph
+>>>>>>> 685697c3b5e175221e70ddf8572b3ef01463d56b
