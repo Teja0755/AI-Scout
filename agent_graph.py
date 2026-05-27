@@ -10,7 +10,7 @@ class ScoutState(TypedDict):
     trends: str             # trend analysis (next agent)
 
 # ----- NODES (agents) -----
-from news_agent import fetch_top_hn_stories, summarize_stories
+from hn_agent import fetch_top_hn_stories, summarize_stories
 
 def news_node(state: ScoutState) -> ScoutState:
     # receives state, does its job, returns updated state

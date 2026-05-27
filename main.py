@@ -1,5 +1,5 @@
 from fastapi import FastAPI      # FastAPI class — this IS your web application
-from news_agent import fetch_top_hn_stories, summarize_stories  
+from hn_agent import fetch_top_hn_stories, summarize_stories  
 from agent_graph import build_graph
 
 # import the two functions we just built — reusing them as-is
